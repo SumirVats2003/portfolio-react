@@ -27,16 +27,31 @@ function About() {
         <h2>Achievements</h2>
         <div className="cards">
           <Card
-            head="Card"
+            head="Android Study Jam - GDSC ZHCET & AMU"
             body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
             showBtn={true}
           />
           <Card
-            head="Card"
+            head="M.A.Z.E. Web Development - Winner"
             body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
           />
           <Card
-            head="Card"
+            head="M.A.Z.E. Competitive Programming - Winner"
+            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
+          />
+        </div>
+        <div className="cards">
+          {/* <Card
+            head="Android Study Jam - GDSC ZHCET & AMU"
+            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
+            showBtn={true}
+          />
+          <Card
+            head="M.A.Z.E. Web Development - Winner"
+            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
+          /> */}
+          <Card
+            head="Date-a-Thon (PROMETEO3.0 IIT Jodhpur) - 5th Rank"
             body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
           />
         </div>

@@ -77,18 +77,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1rem auto;
 }
 
 .card {
-  background-color: #eeeeee;
   width: 20vw;
   margin: auto;
   border: 1px solid rgb(190, 190, 190);
   border-radius: 5px;
-}
-
-.card:hover {
-  background-color: #e4e4e4;
 }
 
 @media only screen and (max-width: 650px) {
