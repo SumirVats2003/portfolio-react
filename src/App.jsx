@@ -4,11 +4,20 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
+import sumir from "./assets/img/sumir.jpeg";
 import "./App.css";
 
 function App() {
   return (
     <>
+      <img
+        src={sumir}
+        alt="Sumir"
+        style={{
+          height: "10rem",
+          borderRadius: "300px",
+        }}
+      />
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>

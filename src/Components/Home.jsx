@@ -1,20 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sumir from "../assets/img/sumir.jpeg";
-
 import "../App.css";
 
 function Home() {
   return (
     <>
-      <img
-        src={sumir}
-        alt="Sumir"
-        style={{
-          height: "10rem",
-          borderRadius: "300px",
-        }}
-      />
       <h1 className="head">Sumir Vats</h1>
       <div className="intro">
         Computer Engineering Undergraduate | Open Source Enthusiast |

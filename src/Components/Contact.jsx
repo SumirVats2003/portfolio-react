@@ -17,8 +17,8 @@ function Contact() {
       <Navbar />
       <h1>Contact Me!</h1>
       <div className="intro">
-        Here are the links to my social media accounts. Feel free to contact
-        anytime as per your ease
+        Here are the links to my social media accounts. Feel free to contact me
+        anytime as per your requirement
       </div>
       <div className="socials">
         <ul>
