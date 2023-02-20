@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/projects" element={<Projects />}></Route>
         </Routes>
       </BrowserRouter>
-      <hr />
+      <hr style={{ color: "#9c9c9c" }} />
       <div className="foot">&copy;Sumir Vats, 2023</div>
     </>
   );

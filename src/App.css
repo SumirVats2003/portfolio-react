@@ -42,7 +42,7 @@
 }
 
 .head {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .intro {
@@ -60,7 +60,7 @@
 }
 
 .links ul li {
-  margin: 2px;
+  margin: 0 1rem;
 }
 
 .socials ul li img {
@@ -71,4 +71,8 @@
 .foot {
   color: #9c9c9c;
   font-size: 0.8em;
+}
+
+.btn {
+  background-color: #eeeeee;
 }
