@@ -8,8 +8,8 @@ function Projects() {
       <Navbar />
       <h1>My Projects</h1>
       <div className="intro">
-        Here are the links to my social media accounts. Feel free to contact
-        anytime as per your ease
+        This page is under construction. View{" "}
+        <a href="https://github.com/SumirVats2003">Github</a> till then {`:)`}
       </div>
     </>
   );
