@@ -12,7 +12,7 @@ function App() {
     <>
       <img
         src={sumir}
-        alt="Sumir"
+        alt='Sumir'
         style={{
           height: "10rem",
           borderRadius: "300px",
@@ -20,14 +20,14 @@ function App() {
       />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/contact" element={<Contact />}></Route>
-          <Route exact path="/projects" element={<Projects />}></Route>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route exact path='/about' element={<About />}></Route>
+          <Route exact path='/contact' element={<Contact />}></Route>
+          <Route exact path='/projects' element={<Projects />}></Route>
         </Routes>
       </BrowserRouter>
       <hr style={{ color: "#9c9c9c" }} />
-      <div className="foot">&copy;Sumir Vats, 2023</div>
+      <div className='foot'>&copy;Sumir Vats, 2023</div>
     </>
   );
 }
