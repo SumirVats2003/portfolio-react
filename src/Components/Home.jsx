@@ -7,9 +7,10 @@ function Home() {
     <>
       <h1 className='head'>Sumir Vats</h1>
       <div className='intro'>
-        Computer Engineering Undergraduate | Open Source Enthusiast |
-        Lead@GDSC_ZHCET | Web and App Developer | Music and Singing
+        Computer Engineering Undergraduate | Open Source Enthusiast | Web and
+        App Developer | Music and Singing
       </div>
+
       <div className='links'>
         <ul>
           <li>

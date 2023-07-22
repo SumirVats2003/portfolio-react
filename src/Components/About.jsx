@@ -9,50 +9,66 @@ function About() {
     <>
       <Navbar />
       <h1>About Me</h1>
-      <div className="about">
+      <div className='about'>
         I am a Computer Engineering undergraduate from the Zakir Husain College
         of Engineering and Technology, Aligarh Muslim University. I am
         passionate about software development and have worked on several
         projects involving web development, application development, and other
-        software-related solutions. I am an Open Source Enthusiast and am now
-        leading the&nbsp;
+        software-related solutions. I am an Open Source Enthusiast and have led
+        the&nbsp;
         <Link
-          to="https://gdsc.community.dev/zakir-husain-college-of-engineering-and-technology-aligarh/"
-          target="_blank"
+          to='https://gdsc.community.dev/zakir-husain-college-of-engineering-and-technology-aligarh/'
+          target='_blank'
         >
           Google Developer Student Club, ZHCET
-        </Link>
+        </Link>{" "}
+        during the session 2022-23
       </div>
-      <div className="achievments">
-        <h2>Achievements</h2>
-        <div className="cards">
+      <div className='experience'>
+        <h2>Experience</h2>
+        <div className='cards'>
           <Card
-            head="Android Study Jam - GDSC ZHCET & AMU"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
+            head='MERN Stack Intern - Codefeast'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
             showBtn={true}
           />
           <Card
-            head="M.A.Z.E. Web Development - Winner"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
-          />
-          <Card
-            head="M.A.Z.E. Competitive Programming - Winner"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
+            head='Lead - Google Developer Student Clubs'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
+            showBtn={true}
           />
         </div>
-        <div className="cards">
+      </div>
+      <div className='achievments'>
+        <h2>Achievements</h2>
+        <div className='cards'>
           <Card
-            head="Date-a-Thon (PROMETEO3.0 IIT Jodhpur) - 5th Rank"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
-          />
-          <Card
-            head="Express Essential Training - LinkedIn Learning"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
+            head='Android Study Jam - GDSC ZHCET & AMU'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
             showBtn={true}
           />
           <Card
-            head="Vercera Software Hackathon 2023 - 3rd Rank"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
+            head='M.A.Z.E. Web Development - Winner'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
+          />
+          <Card
+            head='M.A.Z.E. Competitive Programming - Winner'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
+          />
+        </div>
+        <div className='cards'>
+          <Card
+            head='Date-a-Thon (PROMETEO3.0 IIT Jodhpur) - 5th Rank'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
+          />
+          <Card
+            head='Express Essential Training - LinkedIn Learning'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
+            showBtn={true}
+          />
+          <Card
+            head='Vercera Software Hackathon 2023 - 3rd Rank'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
           />
         </div>
       </div>

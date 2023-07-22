@@ -7,9 +7,12 @@ function Projects() {
     <>
       <Navbar />
       <h1>My Projects</h1>
-      <div className="intro">
+      <div className='intro'>
         This page is under construction. View{" "}
-        <a href="https://github.com/SumirVats2003">Github</a> till then {`:)`}
+        <a href='https://github.com/SumirVats2003' target='_blank'>
+          Github
+        </a>{" "}
+        till then {`:)`}
       </div>
     </>
   );
