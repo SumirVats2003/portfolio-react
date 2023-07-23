@@ -1,8 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Card from "./Card";
+import LeftItem from "./LeftItem";
+import RightItem from "./RightItem";
 import { Link } from "react-router-dom";
 import "../App.css";
+import codefeast from "../assets/img/codefeast.jpg";
+import gdsc from "../assets/img/gdsc.png";
 
 function About() {
   return (
@@ -25,52 +28,19 @@ function About() {
         during the session 2022-23
       </div>
       <div className='experience'>
-        <h2>Experience</h2>
-        <div className='cards'>
-          <Card
-            head='MERN Stack Intern - Codefeast'
-            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
-            showBtn={true}
-          />
-          <Card
-            head='Lead - Google Developer Student Clubs'
-            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
-            showBtn={true}
-          />
-        </div>
-      </div>
-      <div className='achievments'>
-        <h2>Achievements</h2>
-        <div className='cards'>
-          <Card
-            head='Android Study Jam - GDSC ZHCET & AMU'
-            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
-            showBtn={true}
-          />
-          <Card
-            head='M.A.Z.E. Web Development - Winner'
-            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
-          />
-          <Card
-            head='M.A.Z.E. Competitive Programming - Winner'
-            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
-          />
-        </div>
-        <div className='cards'>
-          <Card
-            head='Date-a-Thon (PROMETEO3.0 IIT Jodhpur) - 5th Rank'
-            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
-          />
-          <Card
-            head='Express Essential Training - LinkedIn Learning'
-            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
-            showBtn={true}
-          />
-          <Card
-            head='Vercera Software Hackathon 2023 - 3rd Rank'
-            body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!'
-          />
-        </div>
+        <h2 className='subheading'>Experience</h2>
+        <LeftItem
+          body='As a Frontend intern at Codefeast, I had a chance to work on Frontend development along with FTP. I learnt various software engineering principles, along with industrial experiences such as client relations, software development approaches and marketing'
+          image={codefeast}
+          btnContent='View Certificate and LOR'
+          link='https://drive.google.com/file/d/1ev26TQ_fPxofDtX2jVkVUxSKnesIp430/view?usp=sharing'
+        />
+        <RightItem
+          body='I led the Google Developer Student Club(GDSC), ZHCET during the tenure of 2022-23, wherein I got experience on the fields of leadership, team-work, commincation and public relations. Technically, I got hands-on with Android, Flutter, Web and AI/ML'
+          image={gdsc}
+          btnContent='View Certificate'
+          link='https://drive.google.com/file/d/1Dwn8tG1mGz644zY1nP9NVH1x_8Ygezq4/view?usp=sharing'
+        />
       </div>
     </>
   );

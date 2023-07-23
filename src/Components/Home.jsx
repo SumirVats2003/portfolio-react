@@ -29,7 +29,9 @@ function Home() {
         to='https://drive.google.com/file/d/1_2T9audqC2pmoaJJixJWNq-r6GF4v_3o/view?usp=drive_link'
         target='_blank'
       >
-        <button className='btn'>View Resume</button>
+        <button className='btn' style={{ margin: "1rem" }}>
+          View Resume
+        </button>
       </Link>
     </>
   );
