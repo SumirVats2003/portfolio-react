@@ -4,7 +4,7 @@ import "../App.css";
 
 function LeftItem(props) {
   return (
-    <div className='item'>
+    <div className='left-item item'>
       <div>
         <p>{props.body}</p>
         <Link to={props.link} target='_blank'>

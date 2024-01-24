@@ -4,7 +4,7 @@ import "../App.css";
 
 function RightItem(props) {
   return (
-    <div className='item'>
+    <div className='right-item item'>
       <div className='item-img'>
         <img src={props.image} alt='' />
       </div>
