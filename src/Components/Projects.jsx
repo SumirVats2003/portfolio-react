@@ -10,12 +10,48 @@ function Projects() {
       <Navbar />
       <h1>My Projects</h1>
       <div className="projects">
-      <ProjectCard title="Title" image={ProjectImg} text="this is the description for the project, here is the tech stack and what it does." link="https://github.com" codelink="https://github.com" />
-      <ProjectCard title="Title" image={ProjectImg} text="this is the description for the project, here is the tech stack and what it does." link="#" codelink="https://github.com" />
-      <ProjectCard title="Title" image={ProjectImg} text="this is the description for the project, here is the tech stack and what it does." link="#" codelink="https://github.com" />
-      <ProjectCard title="Title" image={ProjectImg} text="this is the description for the project, here is the tech stack and what it does." link="#" codelink="https://github.com" />
-      <ProjectCard title="Title" image={ProjectImg} text="this is the description for the project, here is the tech stack and what it does." link="#" codelink="https://github.com" />
-      <ProjectCard title="Title" image={ProjectImg} text="this is the description for the project, here is the tech stack and what it does." link="#" codelink="https://github.com" />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
       </div>
       
     </>
