@@ -8,6 +8,7 @@ const ProjectCard = ({title, image, text, link, codelink}) => {
             <Link
               to={link}
               className="img-link"
+              target="_blank"
             >
               <div className="img-div">
                 <img src={image} />
