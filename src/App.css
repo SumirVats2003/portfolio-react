@@ -77,16 +77,6 @@
   font-size: 1rem;
 }
 
-.btn{
-  font-size: 1rem;
-  padding: 1rem 0.8rem;
-  margin-top: 15px;
-}
-
-.btn:hover{
-  opacity: 0.97;
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
