@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
+import ProjectCard from "./ProjectCard";
+import ProjectImg from "../assets/img/project.png";
 import "../App.css";
 
 function Projects() {
@@ -7,13 +9,51 @@ function Projects() {
     <>
       <Navbar />
       <h1>My Projects</h1>
-      <div className='intro'>
-        This page is under construction. View{" "}
-        <a href='https://github.com/SumirVats2003' target='_blank'>
-          Github
-        </a>{" "}
-        till then {`:)`}
+      <div className="projects">
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
+        <ProjectCard 
+          title="Title" 
+          image={ProjectImg} 
+          text="this is the description for the project, here is the tech stack and what it does." 
+          link="#" 
+          codelink="https://github.com" 
+        />
       </div>
+      
     </>
   );
 }
