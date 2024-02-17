@@ -1,7 +1,10 @@
 import React from "react";
 import Navbar from "./Navbar";
 import ProjectCard from "./ProjectCard";
-import ProjectImg from "../assets/img/project.png";
+import adas from "../assets/img/adas.png";
+import asjcc from "../assets/img/asjcc.png";
+import peekaboo from "../assets/img/peekaboo.png";
+import ad from "../assets/img/ad.png";
 import "../App.css";
 
 function Projects() {
@@ -12,31 +15,31 @@ function Projects() {
       <div className='projects'>
         <ProjectCard
           title='ADAS'
-          image={ProjectImg}
+          image={adas}
           text='This project is meant to reduce Road Accidents by alerting driver on detection of drowsiness'
           link='https://github.com/SumirVats2003/ADAS'
-          codelink={link}
+          codelink='https://github.com/SumirVats2003/ADAS'
         />
         <ProjectCard
           title='Peekaboo'
-          image={ProjectImg}
+          image={peekaboo}
           text='Simple and fun Chat App made with Flutter and FireBase'
           codelink='https://github.com/SumirVats2003/peekaboo'
-          link={codelink}
+          link='https://github.com/SumirVats2003/peekaboo'
         />
         <ProjectCard
           title='Aligarh Diaries'
-          image={ProjectImg}
+          image={ad}
           text='A web portal for the Aligarh city for the smart city project'
           codelink='https://github.com/aruto-code/aligarh-diaries'
-          link={codelink}
+          link='https://github.com/aruto-code/aligarh-diaries'
         />
         <ProjectCard
           title='College Canteen'
-          image={ProjectImg}
+          image={asjcc}
           text={`An android application for the college's canteen services`}
           codelink='https://github.com/SumirVats2003/asjTeam3-CollegeCanteen'
-          link={codelink}
+          link='https://github.com/SumirVats2003/asjTeam3-CollegeCanteen'
         />
         {/* <ProjectCard
           title='Title'
