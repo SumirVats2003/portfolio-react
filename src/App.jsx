@@ -4,7 +4,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
-import sumir from "./assets/img/sumir.jpeg";
+import sumir from "./assets/img/sumir.png";
 import "./App.css";
 
 function App() {
