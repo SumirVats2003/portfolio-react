@@ -63,24 +63,24 @@ function Dropdown({ isOpen, toggle }) {
       <NavMenu>
         <NavLink
           onClick={toggle}
-          className="menu-item"
-          to="projects"
+          className='menu-item'
+          to='projects'
           smooth={true}
         >
           Projects
         </NavLink>
         <NavLink
           onClick={toggle}
-          className="menu-item"
-          to="about"
+          className='menu-item'
+          to='about'
           smooth={true}
         >
           About
         </NavLink>
         <NavLink
           onClick={toggle}
-          className="menu-item"
-          to="contact"
+          className='menu-item'
+          to='contact'
           smooth={true}
         >
           Contact
@@ -88,10 +88,10 @@ function Dropdown({ isOpen, toggle }) {
       </NavMenu>
       <NavBtn onClick={toggle}>
         <a
-          className="btn PrimaryBtn"
-          href="https://github.com/gurupawar/"
-          target="_blank"
-          rel="noopener noreferrer"
+          className='btn PrimaryBtn'
+          href='https://drive.google.com/file/d/1NLmul9QQM5k6BzPZ4RpJ-RxOfPHbP23D/view?usp=sharing'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           Resume
         </a>
