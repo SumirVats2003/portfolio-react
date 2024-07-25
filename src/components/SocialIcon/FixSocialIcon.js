@@ -54,7 +54,7 @@ function FixSocialIcon() {
         </li>
         <li className='item'>
           <a
-            href='https://github.com/sumirvats003/'
+            href='https://instagram.com/sumirvats003/'
             target='_blank'
             rel='noopener noreferrer'
           >

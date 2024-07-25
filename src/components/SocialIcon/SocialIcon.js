@@ -35,29 +35,29 @@ function SocialIcon() {
   return (
     <SocialDiv>
       <ul>
-        <li className="item">
+        <li className='item'>
           <a
-            href="https://www.linkedin.com/in/your_username/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://www.linkedin.com/in/sumirvats/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <FaLinkedin />
           </a>
         </li>
-        <li className="item">
+        <li className='item'>
           <a
-            href="https://github.com/your_username/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://github.com/SumirVats2003/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <FaGithub />
           </a>
         </li>
-        <li className="item">
+        <li className='item'>
           <a
-            href="https://github.com/your_username/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://instagram.com/sumirvats003/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <FaInstagram />
           </a>
