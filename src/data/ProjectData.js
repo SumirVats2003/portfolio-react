@@ -52,6 +52,7 @@ export const stackList = [
     name: "npm",
   },
   { img: "https://skillicons.dev/icons?i=react", name: "React" },
+  { img: "https://skillicons.dev/icons?i=nextjs", name: "NextJS" },
   { img: "https://skillicons.dev/icons?i=express", name: "Express" },
   { img: "https://skillicons.dev/icons?i=babel", name: "Babel" },
   { img: "https://skillicons.dev/icons?i=mongodb", name: "MongoDB" },
@@ -101,6 +102,7 @@ export const stackList = [
     name: "NumPy",
   },
   { img: "https://skillicons.dev/icons?i=md", name: "Markdown" },
+  { img: "https://skillicons.dev/icons?i=netlify", name: "Netlify" },
   { img: "https://skillicons.dev/icons?i=linux", name: "Linux" },
   {
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg",
