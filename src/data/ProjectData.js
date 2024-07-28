@@ -109,3 +109,20 @@ export const stackList = [
   { img: "https://cdn.simpleicons.org/ubuntu/E95420", name: "Ubuntu" },
   { img: "https://skillicons.dev/icons?i=bash", name: "Bash" },
 ];
+
+export const ExperienceList = [
+  {
+    img: "/Assets/img/codefeast.jpg",
+    title: "MERN Stack Intern",
+    company: "CodeFeast",
+    time: "May 2023 - June 2023",
+    cert: "https://drive.google.com/file/d/1ev26TQ_fPxofDtX2jVkVUxSKnesIp430/view?usp=sharing",
+  },
+  {
+    img: "/Assets/img/gdsc.png",
+    title: "Lead",
+    company: "Google Developer Students Club, ZHCET",
+    time: "July 2022 - June 2023",
+    cert: "https://drive.google.com/file/d/1Dwn8tG1mGz644zY1nP9NVH1x_8Ygezq4/view?usp=sharing",
+  },
+];

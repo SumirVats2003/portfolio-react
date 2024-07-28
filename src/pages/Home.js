@@ -5,10 +5,12 @@ import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import FixSocialIcon from "../components/SocialIcon/FixSocialIcon";
+import Experience from "../components/Experience/Experience";
 function Home() {
   return (
     <>
       <Hero />
+      <Experience />
       <Projects />
       <About />
       <Contact />
