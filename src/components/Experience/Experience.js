@@ -4,7 +4,7 @@ import ExperienceCard from "./ExperienceCard/ExperienceCard";
 function Experience() {
   return (
     <>
-      {/* <svg
+      <svg
         height='100%'
         width='100%'
         id='svg'
@@ -20,7 +20,7 @@ function Experience() {
           class='transition-all duration-300 ease-in-out delay-150'
           transform='rotate(-180 720 200)'
         ></path>
-      </svg> */}
+      </svg>
       <div className='ProjectWrapper' id='projects'>
         <div className='Container'>
           <div className='SectionTitle'>Experience</div>
