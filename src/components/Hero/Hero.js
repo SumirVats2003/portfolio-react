@@ -27,7 +27,7 @@ function Hero() {
         <HeroWrapper>
           <HeroLeft>
             <ScrollAnimation animateIn='fadeIn'>
-              <h1>Hi, I am Sumir Vats</h1>
+              <h1>Hi, I am Sumir</h1>
               <TypeAnimation
                 cursor={true}
                 sequence={[
