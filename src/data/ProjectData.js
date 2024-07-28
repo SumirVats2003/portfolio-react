@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "../Assets/img/adas.png",
+    img: "/Assets/img/adas.png",
     title: "Advanced Driver Assistance System",
     description: "ADAS helps drivers ditch drowsiness and drive safe.",
     tech_stack: "OpenCV, Python, Flask, HTML, CSS, JS",
@@ -9,7 +9,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "../Assets/img/ad.png",
+    img: "/Assets/img/ad.png",
     title: "Aligarh Diaries",
     description: "An online portal for the Aligarh Smart City Project",
     tech_stack: "React, Auth0",
@@ -17,7 +17,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "../Assets/img/peekaboo.png",
+    img: "/Assets/img/peekaboo.png",
     title: "Peekaboo",
     description: "A Chat Application.",
     tech_stack: "Flutter, FireBase",
@@ -25,7 +25,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "../Assets/img/asjcc/png",
+    img: "/Assets/img/asjcc/png",
     title: "College Canteen",
     description: "An Android app for the College's Canteen Service",
     tech_stack: "Kotlin, Android",
