@@ -25,7 +25,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/Assets/img/asjcc/png",
+    img: "/Assets/img/asjcc.png",
     title: "College Canteen",
     description: "An Android app for the College's Canteen Service",
     tech_stack: "Kotlin, Android",
