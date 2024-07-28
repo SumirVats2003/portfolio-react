@@ -14,8 +14,8 @@ export const Card = styled.div`
   }
 `;
 
+// background: #151418;
 export const CardLeft = styled.div`
-  background: #151418;
   border-radius: 5px;
   padding: 5px;
   justify-self: center;
