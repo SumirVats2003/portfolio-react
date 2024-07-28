@@ -24,7 +24,7 @@ function Experience() {
       <div className='ProjectWrapper' id='projects'>
         <div className='Container'>
           <div className='SectionTitle'>Experience</div>
-          <ProjectCard />
+          <ExperienceCard />
         </div>
       </div>
     </>
