@@ -18,15 +18,13 @@ export const Card = styled.div`
 export const CardLeft = styled.div`
   border-radius: 5px;
   padding: 5px;
-  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   img {
     border-radius: 3px;
     height: auto;
-  }
-
-  img:first-child {
-    height: 10rem;
   }
 `;
 
