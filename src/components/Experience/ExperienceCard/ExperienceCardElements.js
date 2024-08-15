@@ -24,6 +24,10 @@ export const CardLeft = styled.div`
     border-radius: 3px;
     height: auto;
   }
+
+  img:first-child {
+    height: 10rem;
+  }
 `;
 
 export const CardRight = styled.div`
