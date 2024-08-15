@@ -9,7 +9,7 @@ function Experience() {
         id='projects'
         style={{ marginTop: "1rem" }}
       >
-        <div className='Container'>
+        <div className='Container' id='experience'>
           <div className='SectionTitle'>Experience</div>
           <ExperienceCard />
         </div>
