@@ -120,7 +120,7 @@ export const stackList = [
 
 export const ExperienceList = [
   {
-    img: "/Assets/img/codefeast.jpg",
+    img: "/Assets/img/vedaverse.png",
     title: "Intern",
     company: "VedaVerse",
     time: "July 2024 - Present",
