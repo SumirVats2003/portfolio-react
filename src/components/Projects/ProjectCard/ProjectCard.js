@@ -24,6 +24,18 @@ function ProjectCard() {
               <span className='tags'>{list.tech_stack}</span>
             </Stack>
             <BtnGroup>
+              {list.demo_url == "" ? (
+                ""
+              ) : (
+                <a
+                  className='btn PrimaryBtn'
+                  href={list.demo_url}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Demo ➜
+                </a>
+              )}
               <a
                 className='btn btn2 SecondarBtn'
                 href={list.github_url}
@@ -32,14 +44,6 @@ function ProjectCard() {
               >
                 Github
               </a>
-              {/* <a
-                className="btn PrimaryBtn"
-                href={list.demo_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Demo ➜
-              </a> */}
             </BtnGroup>
           </CardRight>
         </Card>

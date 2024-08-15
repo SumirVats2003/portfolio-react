@@ -24,22 +24,18 @@ function ExperienceCard() {
               <span className='tags'>{list.time}</span>
             </Stack>
             <BtnGroup>
-              <a
-                className='btn btn2 SecondarBtn'
-                href={list.cert}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                View Certificate
-              </a>
-              {/* <a
-                className="btn PrimaryBtn"
-                href={list.demo_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Demo ➜
-              </a> */}
+              {list.cert == "" ? (
+                ""
+              ) : (
+                <a
+                  className='btn PrimaryBtn'
+                  href={list.cert}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Certificate ➜
+                </a>
+              )}
             </BtnGroup>
           </CardRight>
         </Card>
