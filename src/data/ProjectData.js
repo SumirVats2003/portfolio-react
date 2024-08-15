@@ -1,6 +1,14 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "https://i.ibb.co/g9cQR1x/start-page.png",
+    title: "Zenith Studio",
+    description: "An online coding platform to hone your programming skills",
+    tech_stack: "React, Java, SpringBoot, MongoDB",
+    github_url: "https://github.com/SumirVats2003/ZenithStudio",
+    demo_url: "https://zenithstudio.vercel.app/",
+  },
+  {
     img: "/Assets/img/adas.png",
     title: "Advanced Driver Assistance System",
     description: "ADAS helps drivers ditch drowsiness and drive safe.",
@@ -111,6 +119,13 @@ export const stackList = [
 ];
 
 export const ExperienceList = [
+  {
+    img: "/Assets/img/codefeast.jpg",
+    title: "Intern",
+    company: "VedaVerse",
+    time: "July 2024 - Present",
+    cert: "",
+  },
   {
     img: "/Assets/img/codefeast.jpg",
     title: "MERN Stack Intern",
