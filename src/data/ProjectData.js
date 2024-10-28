@@ -123,7 +123,7 @@ export const ExperienceList = [
     img: "/Assets/img/vedaverse.png",
     title: "Intern",
     company: "VedaVerse",
-    time: "July 2024 - Present",
+    time: "July 2024 - October 2024",
     cert: "",
   },
   {
